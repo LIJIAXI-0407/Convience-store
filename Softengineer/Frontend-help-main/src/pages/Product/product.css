@@ -1,0 +1,263 @@
+.product-welcome-container {
+  margin-left: 50px;
+  margin-top: 70px;
+  text-align: left;
+  width: 100%;
+}
+
+.product-welcome-container .welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-welcome-container .welcome-title {
+  text-align: left;
+}
+
+.product-welcome-container .welcome-date {
+  text-align: left;
+  margin-left: 0;
+}
+
+.product-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 34px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+}
+
+.product-rectangle-wrapper {
+  margin: 20px 34px 16px 34px;
+  position: relative;
+  z-index: 0;
+}
+
+.product-labels-row {
+  display: flex;
+  padding: 16px 24px;
+  font-weight: 600;
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-label {
+  flex: 1;
+  text-align: left;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-label:first-child {
+  flex: 0.5;
+}
+
+.product-label:last-child {
+  flex: 0.8;
+}
+
+.product-separator {
+  height: 1px;
+  background-color: #e9ecef;
+  margin: 0 24px;
+}
+
+.product-data-row {
+  display: flex;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e9ecef;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.product-data-row:last-child {
+  border-bottom: none;
+}
+
+.low-stock-row {
+  background-color: #fff0f0;
+  color: #cf1322;
+}
+
+.low-stock-row .product-data-cell {
+  color: #cf1322;
+}
+
+.product-data-cell {
+  flex: 1;
+  text-align: left;
+  padding: 0 8px;
+  color: #495057;
+}
+
+.product-data-cell:first-child {
+  flex: 0.5;
+}
+
+.product-data-cell:last-child {
+  flex: 0.8;
+}
+
+.product-data-cell.editable-cell {
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.product-data-cell.editable-cell:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 0 0 1px rgba(115, 138, 154, 0.2);
+}
+
+.product-data-cell.editable-cell:active {
+  background-color: #e9ecef;
+}
+
+.product-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.product-action-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.product-action-icon:hover {
+  opacity: 0.7;
+}
+
+.add-item-button {
+  width: 100px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #738A9A;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-item-button:hover {
+  background: #5a6d7a;
+}
+
+.cell-input {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #738A9A;
+  border-radius: 4px;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.cell-input:focus {
+  outline: none;
+  border-color: #5a6d7a;
+  box-shadow: 0 0 0 2px rgba(115, 138, 154, 0.2);
+}
+
+.cell-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.camera-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-left: 8px;
+  padding: 4px;
+  transition: transform 0.2s ease;
+}
+
+.camera-icon:hover {
+  transform: scale(1.1);
+}
+
+
+/* 分页样式 */
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.pagination-info {
+  color: #666;
+  font-size: 14px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination-btn {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+.pagination-btn:disabled {
+  background-color: #f9f9f9;
+  color: #ccc;
+  cursor: not-allowed;
+  border-color: #e0e0e0;
+}
+
+.pagination-btn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination-btn.active:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.loading-message, .error-message, .no-data-message {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #dc3545;
+}

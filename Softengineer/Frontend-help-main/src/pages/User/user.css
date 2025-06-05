@@ -1,0 +1,123 @@
+.user-welcome-container {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: -1000px;
+}
+
+.user-rectangle-wrapper {
+  margin: 30px 34px 0 34px;
+}
+
+.user-labels-row {
+  display: flex;
+  justify-content: space-between;
+  width: 1142.049px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.user-label {
+  flex: 1;
+  text-align: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.user-separator {
+  width: 1142.049px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.20);
+  margin-top: 10px;
+  margin-left: 24px;
+}
+
+.user-data-row {
+  display: flex;
+  justify-content: space-between;
+  width: 1142.049px;
+  padding: 8px 24px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.user-data-cell {
+  flex: 1;
+  text-align: center;
+  color: #333;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+/* 分页样式 */
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.pagination-info {
+  color: #666;
+  font-size: 14px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination-btn {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+.pagination-btn:disabled {
+  background-color: #f9f9f9;
+  color: #ccc;
+  cursor: not-allowed;
+  border-color: #e0e0e0;
+}
+
+.pagination-btn.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination-btn.active:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.loading-message, .error-message, .no-data-message {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #dc3545;
+}

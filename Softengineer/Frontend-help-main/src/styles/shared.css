@@ -1,0 +1,117 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 237px;
+  height: 100vh;
+  flex-shrink: 0;
+  background: #E0F0FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.sidebar-avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.sidebar-avatar {
+  width: 99px;
+  height: 101px;
+  border-radius: 101px;
+  background: #D9D9D9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.dashboard-main {
+  flex: 1;
+  background: #fff;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.sidebar-name {
+  color: #242323;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.sidebar-role {
+  color: rgba(71, 65, 65, 0.50);
+  font-family: Lato, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.sidebar-menu-outer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 0;
+}
+
+.sidebar-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.sidebar-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-left: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-radius: 8px;
+}
+
+.sidebar-menu-item:hover {
+  background: rgba(115, 138, 154, 0.10);
+}
+
+.sidebar-menu-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 18px;
+}
+
+.sidebar-menu-label {
+  color: #292929;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+} 

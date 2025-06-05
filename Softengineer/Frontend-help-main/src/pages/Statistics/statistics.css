@@ -1,0 +1,136 @@
+.statistics-welcome-container {
+  margin-left: -1000px;
+  margin-top: 40px;
+}
+
+.statistics-content {
+  margin: 10px 34px;
+  padding: 20px;
+  min-height: calc(100vh - 200px);
+}
+
+.statistics-content-container {
+  margin-left: 34px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.statistics-video-frame {
+  display: flex;
+  width: 650px;
+  height: 363px;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: var(--Background-bg-secondary, #F3F5F6);
+}
+
+.statistics-boxes-container {
+  position: absolute;
+  right: 98px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.statistics-white-box {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  padding: 21.618px;
+  flex-direction: column;
+  align-items: center;
+  gap: 21.618px;
+  border-radius: 14.412px;
+  background: var(--Theme-White-Default, #FFF);
+  box-shadow: 0px 0px 1px 0px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+}
+
+.statistics-box-title {
+  color: var(--Theme-Dark-Default, #16192C);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.519px;
+}
+
+.statistics-box-number {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--Text-Heading-Dark, #27272E);
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136.523%;
+}
+
+.charts-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.chart-container {
+  background: white;
+  border-radius: 4px;
+  padding: 15px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.radar-container {
+  padding: 20px;
+  min-width: 540px;
+}
+
+.chart-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-legend {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.legend-text {
+  font-size: 14px;
+  color: #333;
+} 

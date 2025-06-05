@@ -1,0 +1,107 @@
+.dashboard-rectangle {
+  width: 1230px; /* Revert to fixed width */
+  height: 500px; /* Revert to fixed height */
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: #FFF;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  /* margin: 32px 0 0 34px; This margin will be on the container instead */
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.rectangle-and-button-container {
+  display: flex;
+  flex-direction: column; /* Arrange button and rectangle vertically */
+  align-items: flex-end; /* Align items to the right */
+  margin-top: 32px;
+  margin-left: 34px; /* Keep the left margin for the overall block */
+  position: relative;
+  width: 1180px; /* Give the container the same width as the rectangle */
+}
+
+.add-item-button {
+  width: 117px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #738A9A;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 8px; /* Space between button and rectangle */
+  margin-left: 0;
+}
+
+.rectangle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.recent-order-title {
+  color: #000;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.order-labels-row {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  width: 100%;
+  /* Remove gap */
+}
+
+.order-label {
+  width: auto; /* Allow width to be determined by content */
+  height: 24.557px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0; /* Remove padding */
+  text-align: left; /* Align text to the left */
+  /* flex-grow: 1; Remove flex-grow */
+}
+
+.order-separator {
+  width: 100%; /* Make width relative to container */
+  height: 1px;
+  background: rgba(0, 0, 0, 0.20);
+  margin-top: 10px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Vertically align items */
+  width: 100%; /* Take full width */
+  padding-right: 34px; /* Align with the right edge of the rectangle */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Space between header and rectangle */
+} 
